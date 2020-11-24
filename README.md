@@ -92,9 +92,11 @@ SSH into the control node and follow the steps below:
 - Update the config file to include group of servers and IP addresses.
 - Run the playbook, and navigate to sudo docker ps to check that the installation worked as expected.
 
-_TODO: Answer the following questions to fill in the blanks:_
-- _Which file is the playbook? filebeat-playbook.yml Where do you copy it? Webserver group (Web-1 and Web-2)
-- _Which file do you update to make Ansible run the playbook on a specific machine? filebeat-config.yml How do I specify which machine to install the ELK server on versus which to install Filebeat on? The machine's private IP address
+
+- _Which file is the playbook? filebeat-playbook.yml 
+-Where do you copy it? Webserver group (Web-1 and Web-2)
+- _Which file do you update to make Ansible run the playbook on a specific machine? filebeat-config.yml 
+-How do I specify which machine to install the ELK server on versus which to install Filebeat on? The machine's private IP address
 - _Which URL do you navigate to in order to check that the ELK server is running? http://[elkserverIPaddress]:5601/app/kibana
 
 _As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc. 
