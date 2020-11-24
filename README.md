@@ -6,7 +6,7 @@ https://github.com/aharriso7/ELK-Stack/tree/main/Diagrams
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the yml file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
+  https://github.com/aharriso7/ELK-Stack/blob/main/Ansible/install-elk.yml
 
 This document contains the following details:
 - Description of the Topology
@@ -71,7 +71,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/docker_ps_output.png)
+https://github.com/aharriso7/ELK-Stack/blob/main/Ansible/Docker%20Elk.PNG
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
